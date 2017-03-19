@@ -1,2 +1,2 @@
 # zhang-kai
-The files of my Github Page.
+The files of my GitHub Page.
