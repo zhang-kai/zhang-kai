@@ -1,3 +1,3 @@
 # zhang-kai.github.io
-- The files of my GitHub Page. ( https://zhang-kai.github.io )
-- © Kai Zhang 2016-2017.
+- The source files of my GitHub Page. ( https://zhang-kai.github.io )
+- Beta now & © 2017 Kai Zhang(zhang-kai).
