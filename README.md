@@ -1,3 +1,9 @@
-# zhang-kai.github.io
+# Introduction
 - The source files of my GitHub Page. ( https://zhang-kai.github.io )
-- Beta now & © 2017 Kai Zhang(zhang-kai).
+- © 2017 Kai Zhang(zhang-kai).
+
+# Status
+Beta.
+
+# License
+MIT (https://opensource.org/licenses/mit-license.php)
