@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/*Animation*/
+
+@keyframes change {
+    0% {
+        height: 100%;
+    }
+    50% {
+        height: 100%;
+    }
+    to {
+        height: 75%;
+    }
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+        transform: rotate(1440deg) scale(0.8);
+    }
+}
+
+@keyframes enter {
+    from {
+        opacity: 0;
+        top: 150%;
+    }
+}
+
+.header {
+    animation-name: change;
+    -webkit-animation-name: change;
+    -moz-animation-name: change;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+    -webkit-animation-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+    -moz-animation-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.logo {
+    animation-name: fadein;
+    -webkit-animation-name: fadein;
+    -moz-animation-name: fadein;
+    animation-duration: 0.5s;
+    -webkit-animation-duration: 0.5s;
+    -moz-animation-duration: 0.5s;
+    animation-timing-function: ccubic-bezier(0.4, 0.0, 0.2, 1);
+    -webkit-animation-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+    -moz-animation-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.container {
+    animation-name: enter;
+    -webkit-animation-name: enter;
+    -moz-animation-name: enter;
+    animation-duration: 0.4s;
+    -webkit-animation-duration: 0.4s;
+    -moz-animation-duration: 0.4s;
+    animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+    -webkit-animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+    -moz-animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+}
