@@ -47,7 +47,7 @@
     animation-duration: 0.5s;
     -webkit-animation-duration: 0.5s;
     -moz-animation-duration: 0.5s;
-    animation-timing-function: ccubic-bezier(0.4, 0.0, 0.2, 1);
+    animation-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
     -webkit-animation-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
     -moz-animation-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
 }
