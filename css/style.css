@@ -17,11 +17,11 @@ body {
     padding: 0;
     margin: 0;
     width: 100%;
-    height: 75%;
+    height: 40%;
     min-width: 350px;
-    min-height: 350px;
     background-color: #2196F3;
     z-index: 10;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .23), 0 3px 10px rgba(0, 0, 0, .16);
 }
 
 .logo {
@@ -35,13 +35,14 @@ body {
 .container {
     border: none;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 300px;
     height: 300px;
     border-radius: 50%;
     box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.14), 0 2px 36px 0 rgba(0, 0, 0, 0.12), 0 6px 10px -2px rgba(0, 0, 0, 0.4);
+    z-index: 15;
     overflow: hidden;
 }
 
@@ -54,25 +55,17 @@ body {
 /*The footer (not perfect now)*/
 
 .footer {
-    overflow: hidden;
+    overflow: visible;
     position: absolute;
     transform: translate(-50%, -50%);
     left: 50%;
-    top: 90%;
+    top: 80%;
     z-index: 5;
-    padding: 1em 3em;
-    font-size: 1.5em;
+    white-space: nowrap;
+    font-size: 1.8em;
     text-decoration: none;
     color: #263238;
     border: none;
-    border-radius: 0.2em;
-    background-color: #FFFFFF;
-    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.4);
-}
-
-.footer:focus,
-.footer:hover {
-    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.4);
 }
 
 
@@ -91,8 +84,5 @@ body {
     .container:hover,
     .container:focus {
         box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.4);
-    }
-    .footer {
-        padding: 1em 1.5em;
     }
 }
