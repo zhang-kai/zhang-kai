@@ -1,6 +1,5 @@
 # Introduction
-- The source files of my GitHub Page. ( https://zhang-kai.github.io )
-- © 2017 Kai Zhang (zhang-kai).
+- The source files of [my GitHub Page](https://zhang-kai.github.io).
 
 # Status
 - Beta.
