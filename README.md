@@ -3,7 +3,7 @@
 - © 2017 Kai Zhang (zhang-kai).
 
 # Status
-Beta & Building.
+- Beta.
 
 # License
-MIT (https://opensource.org/licenses/mit-license.php)
+- MIT (https://opensource.org/licenses/mit-license.php)
